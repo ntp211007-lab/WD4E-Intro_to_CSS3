@@ -18,7 +18,7 @@ nav {
 }
 
 /* Sắp xếp các mục menu nằm ngang */
-nav li {
+li {
     display: inline-block;
     width: 130px;
     margin: 0 10px;
