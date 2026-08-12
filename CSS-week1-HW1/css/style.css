@@ -40,3 +40,35 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
+/* 4. Thay đổi phần tử nav thành inline-block và rộng 80% */
+nav {
+    display: inline-block;
+    width: 80%; 
+}
+
+/* 5. Định dạng chỉ riêng hình ảnh nằm trong nav rộng 10% */
+nav img {
+    width: 10%; 
+}
+
+/* 6 & 8. Cấu hình class .grid thành lưới 2 cột và căn chỉnh vị trí */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%); 
+    justify-content: center;               
+    align-items: center;                   
+    row-gap: 20px;                         
+}
+
+/* 7. Định dạng hình ảnh nằm trong class .grid rộng 100% */
+.grid img {
+    width: 100%; 
+}
+
+/* 9. Định dạng class .flex sử dụng Flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;            
+    justify-content: space-around; 
+}
