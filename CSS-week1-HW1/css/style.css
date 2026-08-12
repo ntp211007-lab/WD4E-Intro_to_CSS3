@@ -18,12 +18,13 @@ nav {
 }
 
 /* Sắp xếp các mục menu nằm ngang */
+/*
 li {
     display: inline-block;
     width: 130px;
     margin: 0 10px;
 }
-
+*/
 /* Định dạng khu vực nội dung chính */
 main {
     background-color: #ffffff;
